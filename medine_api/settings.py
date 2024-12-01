@@ -32,7 +32,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',  # Pour les tests en local
 ]
 
-APPEND_SLASH = False
+# APPEND_SLASH = False
 
 # Application definition
 
@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'medine_api',
     'production',
 ]
 
